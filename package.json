@@ -1,0 +1,25 @@
+{
+	"name": "simple-rework-loader",
+	"version": "0.1.0",
+	"description": "simple rework-loader for webpack 2",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"rework",
+		"webpack",
+		"loader",
+		"simple",
+		"css"
+	],
+	"author": "Martynas Rimšelis",
+	"license": "MIT",
+	"dependencies": {
+		"loader-utils": "^1.1.0",
+		"rework": "^1.0.1"
+	},
+	"peerDependencies": {
+		"webpack": ">= 2.3.3"
+	}
+}
