@@ -35,10 +35,10 @@ module.exports = {
                     {
                         loader: reworkLoader,
                         options: {
-                            plugins: [reworkPluginUrl(changeImageUrls)],
-                        },
-                    },
-                ],
+                            plugins: [reworkPluginUrl(changeImageUrls)]
+                        }
+                    }
+                ]
             }
         ]
     }
