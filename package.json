@@ -1,6 +1,6 @@
 {
 	"name": "simple-rework-loader",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "simple rework-loader for webpack 2",
 	"main": "index.js",
 	"scripts": {
