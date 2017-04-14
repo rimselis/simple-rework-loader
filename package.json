@@ -1,6 +1,6 @@
 {
 	"name": "simple-rework-loader",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "simple rework-loader for webpack 2",
 	"main": "index.js",
 	"scripts": {
@@ -15,6 +15,10 @@
 	],
 	"author": "Martynas Rimšelis",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/rimselis/simple-rework-loader.git"
+	},
 	"dependencies": {
 		"loader-utils": "^1.1.0",
 		"rework": "^1.0.1"
