@@ -1,6 +1,6 @@
 # simple-rework-loader
 
-Simple Rework loader for [webpack](https://webpack.js.org/) for CSS post-processing with [Rework](https://github.com/reworkcss/rework).
+Simple [webpack 2](https://webpack.js.org/) loader for CSS post-processing with [Rework](https://github.com/reworkcss/rework).
 
 ## Installation
 
@@ -31,14 +31,12 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: [
-                    {
-                        loader: reworkLoader,
-                        options: {
-                            plugins: [reworkPluginUrl(changeImageUrls)]
-                        }
+                use: [{
+                    loader: reworkLoader,
+                    options: {
+                        plugins: [reworkPluginUrl(changeImageUrls)]
                     }
-                ]
+                }]
             }
         ]
     }
